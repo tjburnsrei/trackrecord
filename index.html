@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1a8ec592b7f9dc827cc843a1de087de9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1a8ec592b7f9dc827cc843a1de087de9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1a8ec592b7f9dc827cc843a1de087de9 = L.map(
+                "map_1a8ec592b7f9dc827cc843a1de087de9",
+                {
+                    center: [43.008663, -71.454391],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f832eddbd8f547bc17c7b99049f61ae4 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+            var marker_0473b6f56719c04a262b41102f0f8876 = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_51061b27308e364ecaf1d5215a9b0d29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a10dd5a986cac8d9482f43a4079301d = $(`<div id="html_8a10dd5a986cac8d9482f43a4079301d" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 443 Lake Ave, Manchester, NH 03103<br><b>Units:</b> 8<br><b>Date Acquired:</b> 05/25/2021<br><b>Purchase Price:</b> $350,000</div>`)[0];
+            popup_51061b27308e364ecaf1d5215a9b0d29.setContent(html_8a10dd5a986cac8d9482f43a4079301d);
+        
+
+        marker_0473b6f56719c04a262b41102f0f8876.bindPopup(popup_51061b27308e364ecaf1d5215a9b0d29)
+        ;
+
+        
+    
+    
+            var marker_b071bdde7f64b1b456530ecdda48f0f5 = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_1d57178c3224dcf73d47426555f897da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d83074e3267b627bd9100b64e544228 = $(`<div id="html_4d83074e3267b627bd9100b64e544228" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 26-30 Massabesic St, Manchester, NH 03103<br><b>Units:</b> 4<br><b>Date Acquired:</b> 05/25/2021<br><b>Purchase Price:</b> $350,000</div>`)[0];
+            popup_1d57178c3224dcf73d47426555f897da.setContent(html_4d83074e3267b627bd9100b64e544228);
+        
+
+        marker_b071bdde7f64b1b456530ecdda48f0f5.bindPopup(popup_1d57178c3224dcf73d47426555f897da)
+        ;
+
+        
+    
+    
+            var marker_7bc3a0824ee7fa0df7267cd0caa924cd = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_6245c061cb44c1edb726b9bb402d2cf3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b4d50c293c9e900496284e83eeb18c3 = $(`<div id="html_4b4d50c293c9e900496284e83eeb18c3" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 20 College Rd, Manchester, NH 03102<br><b>Units:</b> 6<br><b>Date Acquired:</b> 09/01/2020<br><b>Purchase Price:</b> $535,000</div>`)[0];
+            popup_6245c061cb44c1edb726b9bb402d2cf3.setContent(html_4b4d50c293c9e900496284e83eeb18c3);
+        
+
+        marker_7bc3a0824ee7fa0df7267cd0caa924cd.bindPopup(popup_6245c061cb44c1edb726b9bb402d2cf3)
+        ;
+
+        
+    
+    
+            var marker_940b7b996c86e66131670193b0254197 = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_1879d26588699aa8101b4125563a95fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc21ca33dcad5d3d8d814ba64de0e12c = $(`<div id="html_fc21ca33dcad5d3d8d814ba64de0e12c" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 18 Brook St, Manchester, NH 03104<br><b>Units:</b> 7<br><b>Date Acquired:</b> 09/28/2020<br><b>Purchase Price:</b> $560,000</div>`)[0];
+            popup_1879d26588699aa8101b4125563a95fe.setContent(html_fc21ca33dcad5d3d8d814ba64de0e12c);
+        
+
+        marker_940b7b996c86e66131670193b0254197.bindPopup(popup_1879d26588699aa8101b4125563a95fe)
+        ;
+
+        
+    
+    
+            var marker_ba29c9059c725361fc61ebdff8fb09a4 = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_39f663af488427545b133af56c52604d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_043f8fc9b13f48057e832ae682a3d7d0 = $(`<div id="html_043f8fc9b13f48057e832ae682a3d7d0" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 17-19 South St, Manchester, NH 03104<br><b>Units:</b> 3<br><b>Date Acquired:</b> 05/01/2018<br><b>Purchase Price:</b> $204,500</div>`)[0];
+            popup_39f663af488427545b133af56c52604d.setContent(html_043f8fc9b13f48057e832ae682a3d7d0);
+        
+
+        marker_ba29c9059c725361fc61ebdff8fb09a4.bindPopup(popup_39f663af488427545b133af56c52604d)
+        ;
+
+        
+    
+    
+            var marker_2eebea54769abc43d70e3609b473b72c = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_675bbf3dc68d30e3b69de4bb6640cd1e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ba38d3d61606f2e56320bba81fa1c67 = $(`<div id="html_8ba38d3d61606f2e56320bba81fa1c67" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 61 B St, Manchester, NH 03102<br><b>Units:</b> 3<br><b>Date Acquired:</b> 09/29/2023<br><b>Purchase Price:</b> $520,000</div>`)[0];
+            popup_675bbf3dc68d30e3b69de4bb6640cd1e.setContent(html_8ba38d3d61606f2e56320bba81fa1c67);
+        
+
+        marker_2eebea54769abc43d70e3609b473b72c.bindPopup(popup_675bbf3dc68d30e3b69de4bb6640cd1e)
+        ;
+
+        
+    
+    
+            var marker_9c3bbb20f86f31a0ba9b105a91f9ae23 = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_4b0b2f9092496ec1ac7e1c1afa1d2d5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_793e0b217deaf31d23a53b5d1d21127a = $(`<div id="html_793e0b217deaf31d23a53b5d1d21127a" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 46 Glass St & 41 Church St, Pembroke, NH 03275<br><b>Units:</b> 8<br><b>Date Acquired:</b> 04/04/2024<br><b>Purchase Price:</b> $1,080,000</div>`)[0];
+            popup_4b0b2f9092496ec1ac7e1c1afa1d2d5e.setContent(html_793e0b217deaf31d23a53b5d1d21127a);
+        
+
+        marker_9c3bbb20f86f31a0ba9b105a91f9ae23.bindPopup(popup_4b0b2f9092496ec1ac7e1c1afa1d2d5e)
+        ;
+
+        
+    
+    
+            var marker_5d14b3f1cea27db1e85116abd695c0ca = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_3909f537e41cdd84c276e46580072092 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_418989c33e16b22f35440c3ecd37ad35 = $(`<div id="html_418989c33e16b22f35440c3ecd37ad35" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 341 Hanover St, Manchester, NH 03104<br><b>Units:</b> 10<br><b>Date Acquired:</b> 02/22/2024<br><b>Purchase Price:</b> $1,338,000</div>`)[0];
+            popup_3909f537e41cdd84c276e46580072092.setContent(html_418989c33e16b22f35440c3ecd37ad35);
+        
+
+        marker_5d14b3f1cea27db1e85116abd695c0ca.bindPopup(popup_3909f537e41cdd84c276e46580072092)
+        ;
+
+        
+    
+    
+            var marker_a8268f79ab365034064586f7b2b1a3a3 = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_5f4844b026f4fcf4a79cacfd61a68afb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07e8bb94bd5bd066fb5964c69fc71255 = $(`<div id="html_07e8bb94bd5bd066fb5964c69fc71255" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 32 Main St, Durham, NH 03824<br><b>Units:</b> 11<br><b>Date Acquired:</b> 12/23/2022<br><b>Purchase Price:</b> $1,600,000</div>`)[0];
+            popup_5f4844b026f4fcf4a79cacfd61a68afb.setContent(html_07e8bb94bd5bd066fb5964c69fc71255);
+        
+
+        marker_a8268f79ab365034064586f7b2b1a3a3.bindPopup(popup_5f4844b026f4fcf4a79cacfd61a68afb)
+        ;
+
+        
+    
+    
+            var marker_6285e8c5cef73739cb4ba60ca4f8d6d6 = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_c84fc903179c02355bb60a4e899bec61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7e19d6c2464eec9c9b3a3c7df24dff7 = $(`<div id="html_a7e19d6c2464eec9c9b3a3c7df24dff7" style="width: 100.0%; height: 100.0%;"><b>Address:</b> West Side Portfolio, Manchester, NH 03102<br><b>Units:</b> 34<br><b>Date Acquired:</b> 10/28/2021<br><b>Purchase Price:</b> $3,600,000</div>`)[0];
+            popup_c84fc903179c02355bb60a4e899bec61.setContent(html_a7e19d6c2464eec9c9b3a3c7df24dff7);
+        
+
+        marker_6285e8c5cef73739cb4ba60ca4f8d6d6.bindPopup(popup_c84fc903179c02355bb60a4e899bec61)
+        ;
+
+        
+    
+    
+            var marker_f238d9edb988a860e0a71b555d9bd6c4 = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_3f732f4da087e05f910ca39a96685f5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4fead713742b73d6cddf5e1a391c347d = $(`<div id="html_4fead713742b73d6cddf5e1a391c347d" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Front St, Pembroke, NH 03275<br><b>Units:</b> 8<br><b>Date Acquired:</b> 05/26/2022<br><b>Purchase Price:</b> $850,000</div>`)[0];
+            popup_3f732f4da087e05f910ca39a96685f5f.setContent(html_4fead713742b73d6cddf5e1a391c347d);
+        
+
+        marker_f238d9edb988a860e0a71b555d9bd6c4.bindPopup(popup_3f732f4da087e05f910ca39a96685f5f)
+        ;
+
+        
+    
+    
+            var marker_828f877b35c0ff7242e99b1ed2beff11 = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_abce2f7d150294c48a693ed28bc3675e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_507e03dd35555e40dd5b5474eacd19f0 = $(`<div id="html_507e03dd35555e40dd5b5474eacd19f0" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Aligned NH Multifamily Fund I<br><b>Units:</b> 18<br><b>Date Acquired:</b> 09/14/2022<br><b>Purchase Price:</b> $2,013,000</div>`)[0];
+            popup_abce2f7d150294c48a693ed28bc3675e.setContent(html_507e03dd35555e40dd5b5474eacd19f0);
+        
+
+        marker_828f877b35c0ff7242e99b1ed2beff11.bindPopup(popup_abce2f7d150294c48a693ed28bc3675e)
+        ;
+
+        
+    
+    
+            var marker_5eec789cf728bfd6ad1954f6aeb1cc8b = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_ff88bb1acdb2d7ba4574e39c137b0659 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7cca240291d5e784d16aa8f235c5c916 = $(`<div id="html_7cca240291d5e784d16aa8f235c5c916" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Nashua Portfolio<br><b>Units:</b> 12<br><b>Date Acquired:</b> 12/20/2022<br><b>Purchase Price:</b> $1,260,000</div>`)[0];
+            popup_ff88bb1acdb2d7ba4574e39c137b0659.setContent(html_7cca240291d5e784d16aa8f235c5c916);
+        
+
+        marker_5eec789cf728bfd6ad1954f6aeb1cc8b.bindPopup(popup_ff88bb1acdb2d7ba4574e39c137b0659)
+        ;
+
+        
+    
+    
+            var marker_3c3552dd0b653ac6e9ecb255cb2628ef = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_63471a87afc0a80db741b804ce4507cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b030047e20f1c1c4d8160843ca138005 = $(`<div id="html_b030047e20f1c1c4d8160843ca138005" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Manchester/Farmington Portfolio<br><b>Units:</b> 12<br><b>Date Acquired:</b> 12/21/2022<br><b>Purchase Price:</b> $1,250,000</div>`)[0];
+            popup_63471a87afc0a80db741b804ce4507cf.setContent(html_b030047e20f1c1c4d8160843ca138005);
+        
+
+        marker_3c3552dd0b653ac6e9ecb255cb2628ef.bindPopup(popup_63471a87afc0a80db741b804ce4507cf)
+        ;
+
+        
+    
+    
+            var marker_7885991ee3b37dc5089130cc21651531 = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_c4658836f57634b96a9ed0d775746d5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_52ac2be0311b773380543084a50600d4 = $(`<div id="html_52ac2be0311b773380543084a50600d4" style="width: 100.0%; height: 100.0%;"><b>Address:</b> NH Small Multifamily Portfolio II<br><b>Units:</b> 27<br><b>Date Acquired:</b> 02/14/2024<br><b>Purchase Price:</b> $3,515,000</div>`)[0];
+            popup_c4658836f57634b96a9ed0d775746d5d.setContent(html_52ac2be0311b773380543084a50600d4);
+        
+
+        marker_7885991ee3b37dc5089130cc21651531.bindPopup(popup_c4658836f57634b96a9ed0d775746d5d)
+        ;
+
+        
+    
+    
+            var marker_80b925fd44f0d211038aef0dedb99ad2 = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_b8c2955db87f2a41273bf41965733f2a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed31c1958ebc1f790e4ddc2ae0b78f5e = $(`<div id="html_ed31c1958ebc1f790e4ddc2ae0b78f5e" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Raymond & Derry Portfolio<br><b>Units:</b> 18<br><b>Date Acquired:</b> 04/30/2024<br><b>Purchase Price:</b> $1,873,165</div>`)[0];
+            popup_b8c2955db87f2a41273bf41965733f2a.setContent(html_ed31c1958ebc1f790e4ddc2ae0b78f5e);
+        
+
+        marker_80b925fd44f0d211038aef0dedb99ad2.bindPopup(popup_b8c2955db87f2a41273bf41965733f2a)
+        ;
+
+        
+    
+    
+            var marker_a8c200bbf3ee0725b217e5a4f84a29a1 = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_c3fe79adb0169a24d244e3dd32aa0863 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8b8ee6dbbc33281dda4269b12ac162e = $(`<div id="html_a8b8ee6dbbc33281dda4269b12ac162e" style="width: 100.0%; height: 100.0%;"><b>Address:</b> Rochester Portfolio<br><b>Units:</b> 13<br><b>Date Acquired:</b> 05/29/2024<br><b>Purchase Price:</b> $2,000,000</div>`)[0];
+            popup_c3fe79adb0169a24d244e3dd32aa0863.setContent(html_a8b8ee6dbbc33281dda4269b12ac162e);
+        
+
+        marker_a8c200bbf3ee0725b217e5a4f84a29a1.bindPopup(popup_c3fe79adb0169a24d244e3dd32aa0863)
+        ;
+
+        
+    
+    
+            var marker_c0777e18219971dd76dd5166723e3b1e = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_a0eba56d7fd44f2221d734c06f325982 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82b19befc3d52323842afc180a45c76c = $(`<div id="html_82b19befc3d52323842afc180a45c76c" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 661 Corning Rd, Manchester, NH 03109<br><b>Units:</b> 45<br><b>Date Acquired:</b> 07/18/2023<br><b>Purchase Price:</b> $6,500,000</div>`)[0];
+            popup_a0eba56d7fd44f2221d734c06f325982.setContent(html_82b19befc3d52323842afc180a45c76c);
+        
+
+        marker_c0777e18219971dd76dd5166723e3b1e.bindPopup(popup_a0eba56d7fd44f2221d734c06f325982)
+        ;
+
+        
+    
+    
+            var marker_c207ad6b33a4f6a3c54052dbf2e510cb = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_0a03344d27ded556f6d1e2a87f7dfbf0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bab51e1fadb953cc47bccb1b5624d829 = $(`<div id="html_bab51e1fadb953cc47bccb1b5624d829" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 120 Myrtle St, Manchester, NH 03104<br><b>Units:</b> 23<br><b>Date Acquired:</b> 06/30/2023<br><b>Purchase Price:</b> $2,200,000</div>`)[0];
+            popup_0a03344d27ded556f6d1e2a87f7dfbf0.setContent(html_bab51e1fadb953cc47bccb1b5624d829);
+        
+
+        marker_c207ad6b33a4f6a3c54052dbf2e510cb.bindPopup(popup_0a03344d27ded556f6d1e2a87f7dfbf0)
+        ;
+
+        
+    
+    
+            var marker_4fa0c050c1000a26ccb2cbd059ec1517 = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_66031d216ec929c48adf805bd6d09e5a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12545fa70228a3044c53419e8f2540ff = $(`<div id="html_12545fa70228a3044c53419e8f2540ff" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 214 Kelley St, Manchester, NH 03102<br><b>Units:</b> 6<br><b>Date Acquired:</b> 06/29/2023<br><b>Purchase Price:</b> $720,000</div>`)[0];
+            popup_66031d216ec929c48adf805bd6d09e5a.setContent(html_12545fa70228a3044c53419e8f2540ff);
+        
+
+        marker_4fa0c050c1000a26ccb2cbd059ec1517.bindPopup(popup_66031d216ec929c48adf805bd6d09e5a)
+        ;
+
+        
+    
+    
+            var marker_c9ac88098c09c55996c3ce6fec8dc95c = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_fbec788e180c663a6c49dd355902a352 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73db8965c923e074d81b509c05019bf2 = $(`<div id="html_73db8965c923e074d81b509c05019bf2" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 7-9 Broadway, Suncook, NH 03275<br><b>Units:</b> 6<br><b>Date Acquired:</b> 01/06/2023<br><b>Purchase Price:</b> $500,000</div>`)[0];
+            popup_fbec788e180c663a6c49dd355902a352.setContent(html_73db8965c923e074d81b509c05019bf2);
+        
+
+        marker_c9ac88098c09c55996c3ce6fec8dc95c.bindPopup(popup_fbec788e180c663a6c49dd355902a352)
+        ;
+
+        
+    
+    
+            var marker_6618c49a690bd6960c048edd174cdf85 = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_76b12d0b2c4f6fc77bb26a9fd9bc4851 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f80b283a222321d4b0ecb3903f40180 = $(`<div id="html_8f80b283a222321d4b0ecb3903f40180" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 648 Central Ave, Dover, NH 03820<br><b>Units:</b> 5<br><b>Date Acquired:</b> 05/25/2022<br><b>Purchase Price:</b> $647,000</div>`)[0];
+            popup_76b12d0b2c4f6fc77bb26a9fd9bc4851.setContent(html_8f80b283a222321d4b0ecb3903f40180);
+        
+
+        marker_6618c49a690bd6960c048edd174cdf85.bindPopup(popup_76b12d0b2c4f6fc77bb26a9fd9bc4851)
+        ;
+
+        
+    
+    
+            var marker_8d0b34da1d094eea7a93f1a3a801b89a = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_bddf8c070c2f6a455c40dc59db32c05b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3728bd27731c1a21ef363cba3a8478dc = $(`<div id="html_3728bd27731c1a21ef363cba3a8478dc" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 187 Front St, Exeter, NH 03833<br><b>Units:</b> 2<br><b>Date Acquired:</b> 02/05/2024<br><b>Purchase Price:</b> $399,500</div>`)[0];
+            popup_bddf8c070c2f6a455c40dc59db32c05b.setContent(html_3728bd27731c1a21ef363cba3a8478dc);
+        
+
+        marker_8d0b34da1d094eea7a93f1a3a801b89a.bindPopup(popup_bddf8c070c2f6a455c40dc59db32c05b)
+        ;
+
+        
+    
+    
+            var marker_9dfc38c64e34743011b172ffd2bd1889 = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_48e66279cfa3ef98116b9f7285749a94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a431faa7b0a5886e7f5255b6611fd22 = $(`<div id="html_4a431faa7b0a5886e7f5255b6611fd22" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 20-22 Ham St, Dover, NH 03820<br><b>Units:</b> 3<br><b>Date Acquired:</b> 07/15/2024<br><b>Purchase Price:</b> $550,000</div>`)[0];
+            popup_48e66279cfa3ef98116b9f7285749a94.setContent(html_4a431faa7b0a5886e7f5255b6611fd22);
+        
+
+        marker_9dfc38c64e34743011b172ffd2bd1889.bindPopup(popup_48e66279cfa3ef98116b9f7285749a94)
+        ;
+
+        
+    
+    
+            var marker_1d8cf3d9f45155d41c94c56c9388c947 = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_e4b64ff2edc907574c0245adceb0e97e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cbc3cdb3adb288ba60f60722f45b712c = $(`<div id="html_cbc3cdb3adb288ba60f60722f45b712c" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 352 Dubuque St, Manchester, NH 03102<br><b>Units:</b> 6<br><b>Date Acquired:</b> 10/28/2021<br><b>Purchase Price:</b> $600,000</div>`)[0];
+            popup_e4b64ff2edc907574c0245adceb0e97e.setContent(html_cbc3cdb3adb288ba60f60722f45b712c);
+        
+
+        marker_1d8cf3d9f45155d41c94c56c9388c947.bindPopup(popup_e4b64ff2edc907574c0245adceb0e97e)
+        ;
+
+        
+    
+    
+            var marker_8fb757783d22e680c9eb0ca34895f8a5 = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_a3bdee697d22cc5cff4ad8fcc6da3ddb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c81790cc4d1882bde94c0368988e03d3 = $(`<div id="html_c81790cc4d1882bde94c0368988e03d3" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 422 Maple St, Manchester, NH 03103<br><b>Units:</b> 4<br><b>Date Acquired:</b> 12/01/2022<br><b>Purchase Price:</b> $290,000</div>`)[0];
+            popup_a3bdee697d22cc5cff4ad8fcc6da3ddb.setContent(html_c81790cc4d1882bde94c0368988e03d3);
+        
+
+        marker_8fb757783d22e680c9eb0ca34895f8a5.bindPopup(popup_a3bdee697d22cc5cff4ad8fcc6da3ddb)
+        ;
+
+        
+    
+    
+            var marker_dddd313d3aa585fd7d487226154e8368 = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_00ee04effe0fbab0325cfafb5232d384 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8330baedd66ae4f03ebf2bc398249fc = $(`<div id="html_e8330baedd66ae4f03ebf2bc398249fc" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 375 Manchester St, Manchester, NH 03103<br><b>Units:</b> 6<br><b>Date Acquired:</b> 11/13/2020<br><b>Purchase Price:</b> $405,000</div>`)[0];
+            popup_00ee04effe0fbab0325cfafb5232d384.setContent(html_e8330baedd66ae4f03ebf2bc398249fc);
+        
+
+        marker_dddd313d3aa585fd7d487226154e8368.bindPopup(popup_00ee04effe0fbab0325cfafb5232d384)
+        ;
+
+        
+    
+    
+            var marker_73a5174de09230418a1cbf53002e29fb = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_28b74499a250524918a44709062791c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_505bdd34d1c9198d0fee771689fc2194 = $(`<div id="html_505bdd34d1c9198d0fee771689fc2194" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 186 Bell St, Manchester, NH 03103<br><b>Units:</b> 3<br><b>Date Acquired:</b> 12/15/2020<br><b>Purchase Price:</b> $308,000</div>`)[0];
+            popup_28b74499a250524918a44709062791c4.setContent(html_505bdd34d1c9198d0fee771689fc2194);
+        
+
+        marker_73a5174de09230418a1cbf53002e29fb.bindPopup(popup_28b74499a250524918a44709062791c4)
+        ;
+
+        
+    
+    
+            var marker_cf986cf566946608cadf1880d44d5055 = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_2dab50aab7154d39662867a6e63c5dbe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1cb42c4f52aa70de8014576e080911f1 = $(`<div id="html_1cb42c4f52aa70de8014576e080911f1" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 4 Nesmith St, Derry, NH 03038<br><b>Units:</b> 5<br><b>Date Acquired:</b> 04/26/2022<br><b>Purchase Price:</b> $600,000</div>`)[0];
+            popup_2dab50aab7154d39662867a6e63c5dbe.setContent(html_1cb42c4f52aa70de8014576e080911f1);
+        
+
+        marker_cf986cf566946608cadf1880d44d5055.bindPopup(popup_2dab50aab7154d39662867a6e63c5dbe)
+        ;
+
+        
+    
+    
+            var marker_b709447d0133a73b7f4c5e9b243d464b = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_aa14e7203f790db6c592e82ff0f67a95 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_80094fa1a3f31c16bf52db62fef633a5 = $(`<div id="html_80094fa1a3f31c16bf52db62fef633a5" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 514 Hanover St, Manchester, NH 03104<br><b>Units:</b> 5<br><b>Date Acquired:</b> 09/28/2020<br><b>Purchase Price:</b> $425,000</div>`)[0];
+            popup_aa14e7203f790db6c592e82ff0f67a95.setContent(html_80094fa1a3f31c16bf52db62fef633a5);
+        
+
+        marker_b709447d0133a73b7f4c5e9b243d464b.bindPopup(popup_aa14e7203f790db6c592e82ff0f67a95)
+        ;
+
+        
+    
+    
+            var marker_29e4bd61fff19e856fe2b4c766c680af = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_5b2ce158db629e1d9eb94f9a2cbd56bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_278c1fed53be58c9ff7053d8c680d50b = $(`<div id="html_278c1fed53be58c9ff7053d8c680d50b" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 1-12 Thoreau Way, Antrim, NH 03440<br><b>Units:</b> 12<br><b>Date Acquired:</b> 07/12/2022<br><b>Purchase Price:</b> $625,000</div>`)[0];
+            popup_5b2ce158db629e1d9eb94f9a2cbd56bf.setContent(html_278c1fed53be58c9ff7053d8c680d50b);
+        
+
+        marker_29e4bd61fff19e856fe2b4c766c680af.bindPopup(popup_5b2ce158db629e1d9eb94f9a2cbd56bf)
+        ;
+
+        
+    
+    
+            var marker_209b4197dd451f7397e2f8affdf22437 = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_e96675c99558b9e37120684d42bce5a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2bf8c9785adbbe0ca4b6286217ea5b80 = $(`<div id="html_2bf8c9785adbbe0ca4b6286217ea5b80" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 381 Thornton St, Manchester, NH 03102<br><b>Units:</b> 3<br><b>Date Acquired:</b> 08/26/2021<br><b>Purchase Price:</b> $381,000</div>`)[0];
+            popup_e96675c99558b9e37120684d42bce5a3.setContent(html_2bf8c9785adbbe0ca4b6286217ea5b80);
+        
+
+        marker_209b4197dd451f7397e2f8affdf22437.bindPopup(popup_e96675c99558b9e37120684d42bce5a3)
+        ;
+
+        
+    
+    
+            var marker_1ea0dfa2587a77d1e2626353fd2f3325 = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_9b12eecf3297a8f644465535cb310810 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a49900909ab0f11be8366318d804e380 = $(`<div id="html_a49900909ab0f11be8366318d804e380" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 446 Bartlett St, Manchester, NH 03102<br><b>Units:</b> 3<br><b>Date Acquired:</b> 06/16/2023<br><b>Purchase Price:</b> $599,000</div>`)[0];
+            popup_9b12eecf3297a8f644465535cb310810.setContent(html_a49900909ab0f11be8366318d804e380);
+        
+
+        marker_1ea0dfa2587a77d1e2626353fd2f3325.bindPopup(popup_9b12eecf3297a8f644465535cb310810)
+        ;
+
+        
+    
+    
+            var marker_998005e1ad64324765c0c2bfa8eadb14 = L.marker(
+                [43.008663, -71.454391],
+                {}
+            ).addTo(map_1a8ec592b7f9dc827cc843a1de087de9);
+        
+    
+        var popup_e66e8d970ad98ac59130bf04cb0e90e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a60bf9306e5d796ceb9b7aca19e66d22 = $(`<div id="html_a60bf9306e5d796ceb9b7aca19e66d22" style="width: 100.0%; height: 100.0%;"><b>Address:</b> 436 Granite St, Manchester, NH 03102<br><b>Units:</b> 5<br><b>Date Acquired:</b> 08/12/2019<br><b>Purchase Price:</b> $400,000</div>`)[0];
+            popup_e66e8d970ad98ac59130bf04cb0e90e9.setContent(html_a60bf9306e5d796ceb9b7aca19e66d22);
+        
+
+        marker_998005e1ad64324765c0c2bfa8eadb14.bindPopup(popup_e66e8d970ad98ac59130bf04cb0e90e9)
+        ;
+
+        
+    
+</script>
+</html>
